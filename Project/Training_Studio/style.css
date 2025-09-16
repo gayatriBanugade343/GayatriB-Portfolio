@@ -29,7 +29,7 @@ body{
   border-radius: 10px;
 }
 #header{
-   background-image: url(./images/carousal1.jpeg);
+   background-image: url(./carousal1.jpeg);
     height: 470px; 
     background-repeat: no-repeat;
     background-size: 100% 100%; 
@@ -61,18 +61,18 @@ body{
 }   
 
 #think{
-  background-image: url(./images/cta-bg.jpg);
+  background-image: url(./cta-bg.jpg);
   background-position: 100%100%;
   background-repeat: no-repeat;
   margin-top: 100px;
 }
 #schedule{
-  background-image: url(./images/schedule-bg.jpg);
+  background-image: url(./schedule-bg.jpg);
   background-position: 100%100%;
   background-repeat: no-repeat;
 } 
 #contact{
-  background-image: url(./images/contact-bg.jpg);
+  background-image: url(./contact-bg.jpg);
   height: 500px;
 }
 .fa-arrow-circle-up{
@@ -242,17 +242,17 @@ body{
   height: 400px;
 }
 .a1 {
-  background-image: url("images/training-image-01.jpg");
+  background-image: url("training-image-01.jpg");
 }
 .a2 {
-  background-image: url("images/training-image-02.jpg")
+  background-image: url("training-image-02.jpg")
 }
 .a3 {
-  background-image: url("images/training-image-03.jpg");
+  background-image: url("training-image-03.jpg");
   color: #fff;
 }
 .a4 {
-  background-image: url("images/training-image-04.jpg");
+  background-image: url("training-image-04.jpg");
   color: #fff;
 }
 /* .a5 {
