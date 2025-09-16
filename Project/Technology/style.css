@@ -7,7 +7,7 @@
 }
 .container header{
     height: 350px;
-    background-image: url(./imges/herosection.jpeg);
+    background-image: url(./herosection.jpeg);
     background-size: 100% 100%;
     position: relative;
 }
@@ -209,7 +209,7 @@
 }
 .herosection{
     height: 740px;
-    background-image: url(./imges/smart.jpeg);
+    background-image: url(./smart.jpeg);
     background-position: 10% 10%;
 }
 .herosection div{
@@ -385,7 +385,7 @@
 }
 .qua{
     height: 780px;
-    background-image: url(../Technology/imges/product.jpeg);
+    background-image: url(./product.jpeg);
     background-repeat: no-repeat;
     background-size: 200% 110%;
     background-color: rgba(46, 42, 45, 0.397);
@@ -1060,7 +1060,7 @@ footer .web{
     font-size: 25px;
 }
 .skill{
-    background-image: url(./imges/lamp.jpeg);
+    background-image: url(./lamp.jpeg);
     background-size: 100% 100%;
 }
 .qua{
