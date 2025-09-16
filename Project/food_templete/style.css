@@ -1,0 +1,936 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ /* .container header{
+    height: 70px;
+    position: relative;
+    border-radius: 0px 0px 40px 40px;
+}
+.container .nav{
+    height: 30px;
+}
+.container header img{
+    margin: 8px 0px 0px 15px;
+}
+.container header .fa-bars{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 25px;
+    display: block;
+}
+.container header ul li{
+    display: flex;
+    flex-direction: column;
+    display: none; yes
+    font-size: 20px;
+}
+.container header ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.container header ul{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    display: none;
+}  */
+.container header{
+    height: 75px;
+    position: relative;
+    border-radius: 0px 0px 40px 40px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.container .nav{
+    height: 30px;
+}
+.container header img{
+    margin: 8px 0px 0px 15px;
+}
+.container header .fa-bars{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    display: block;
+}
+.container header ul li{
+    display: flex;
+    flex-direction: row;
+    display: none; 
+    font-size: 20px;
+}
+.container header ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(39, 37, 37);
+    padding: 8px;
+    display: flex;
+}
+.container header ul li a:hover{
+    background-color: orangered;
+    border-radius: 20px;
+}
+.container header ul{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: none;
+    display: flex;
+    
+} 
+
+.herosection{
+    height: 300px;
+    background-image: url(./images/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 160% 100%;
+    background-color: rgba(20, 10, 15, 0.363);
+}
+.herosection .head, .head1, p{
+    color: white;
+    margin: 0px 0px 0px 5px;
+}
+.herosection .head{
+    margin: 0px 0px 0px 5px;
+}
+.herosection p{
+    margin: 10px 0px 0px 5px;
+}
+.herosection button{
+    padding: 8px 15px;
+    margin: 10px 0px 0px 5px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+.dinner{
+    height: 350px;
+    
+    background-image: url(./images/about-bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.dinner img{
+    position: absolute;
+    top: 220px;
+    right: 15px;
+    box-shadow: 7px 7px 0px orangered;
+}
+.dinner .n10{
+    float: left;
+    margin: 10px 0px 0px 5px;
+}
+.dinner h3{
+    margin: 10px 0px 10px 5px;
+}
+.dinner h6{
+    margin: 0px 0px 0px 5px;
+}
+.dinner h3 span{
+    color: orangered;
+}
+.dinner button{
+    padding: 8px 15px;
+    margin: 80px 0px 0px 5px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+.mic{
+    height: 200px;
+    background-image: url(./images/qt-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mic .mi{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+.menu{
+    height: 1750px;
+    text-align: center;
+}
+.menu .sm{
+    margin: 30px 0px 15px 0px;
+}
+.menu ul{
+    margin: 20px 0px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 20px 10px;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color: red;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+.menu .jpg img{
+    margin: 10px 0px;
+}
+
+.gallery{
+    height: 1180px;
+    text-align: center;
+}
+.gallery h2{
+    margin: 30px 0px 10px 0px;
+}
+.gallery nav{
+    margin-bottom: 20px;
+}
+.gallery .g1 img{
+    margin: 10px 0px;
+    border: 1px solid orangered;
+}
+.customer{
+    height: 780px;
+    text-align: center;
+    position: relative;
+}
+.customer h2{
+    margin: 20px 0px;
+}
+.customer img{
+    margin: 20px 0px;
+}
+.customer .da{
+    font-weight: bolder;
+    color: orangered;
+    margin-bottom: 8px;
+}
+.customer .para{
+    margin: 10px;
+}
+.customer .add{
+    height: 270px;
+    width: 100%;
+    text-align: left;
+    margin: 40px 0px 0px 0px;
+    color: white;
+    background-color: orangered;
+    border-radius: 40px;
+
+
+}
+.add .fa-phone-volume{
+    position: absolute;
+    bottom: 250px;
+    left: 30px;
+    padding: 8px;
+    background-color: white;
+    color: orangered;
+}
+.add .nav1{
+    position: absolute;
+    bottom: 260px;
+    left: 70px;
+}
+.add .para1{
+    position: absolute;
+    bottom: 240px;
+    left: 70px;
+}
+.add .fa-envelope{
+    position: absolute;
+    bottom: 185px;
+    left: 30px;
+    padding: 8px;
+    color: orangered;
+    background-color: white;
+}
+.add .nav2{
+    position: absolute;
+    bottom: 202px;
+    left: 70px;
+}
+.add .para2{
+    position: absolute;
+    bottom: 185px;
+    left: 68px;
+}
+.add .fa-angle-double-right{
+    display: none;
+}
+.add .fa-map-marker-alt{
+    position: absolute;
+    bottom: 120px;
+    left: 33px;
+    padding: 8px;
+    color: orangered;
+    background-color: white;
+}
+.add .nav3{
+    position: absolute;
+    bottom: 135px;
+    left: 70px;
+}
+.add .para3{
+    position: absolute;
+    bottom: 115px;
+    left: 66px;
+}
+.f1{
+    height: 340px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid orangered;
+}
+.f1 nav{
+    color: gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f1 h4{
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid #e69318f1;
+}
+.f1 .about{
+    margin: 20px 10px;
+}
+.f1 .subscribe{
+    margin: 20px 10px;
+}
+.f1 .contact{
+    margin: 20px 10px;
+}
+.f1 .hour{
+    margin: 20px 10px;
+}
+footer{
+    height: 80px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width:768px){
+    /* .container header{
+        height: 50px;
+        border-radius: 0px 0px 40px 40px;
+    }
+    .container header img{
+        margin: 15px 0px 0px 20px;
+    }
+    .container header .fa-bars{
+        display: none;
+    }
+    
+    .container header ul li a{
+        display: block;
+        color: black;
+        margin: 10px;
+    }
+    .container header ul{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px 0px 0px;
+    }
+    .container header ul li a:hover{
+        background-color: red;
+        padding: 10px;
+        border-radius: 20px;
+    }  */
+    .container header{
+        height: 75px;
+        position: relative;
+        border-radius: 0px 0px 40px 40px;
+        background-color: rgba(0, 0, 0, 0.205);
+    }
+    .container .nav{
+        height: 30px;
+    }
+    .container header img{
+        margin: 8px 0px 0px 15px;
+    }
+    .container header .fa-bars{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        font-size: 20px;
+        display: none;
+    }
+    .container header ul li{
+        display: flex;
+        flex-direction: row;
+        /* display: none;  */
+        font-size: 20px;
+    }
+    .container header ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: rgb(39, 37, 37);
+        padding: 8px;
+        display: flex;
+    }
+    .container header ul li a:hover{
+        background-color: orangered;
+        border-radius: 20px;
+    }
+    .container header ul{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        /* display: none; */
+        display: flex;
+        
+    } 
+    .herosection{
+        height: 400px;
+    }
+    .herosection .head{
+        margin: 0px 0px 0px 10px;
+        font-size: 50px;
+    }
+    .herosection .head1{
+        font-size: 50px;
+        margin: 10px 0px 0px 10px;
+    }
+    .herosection p{
+        width: 60%;
+        margin: 10px 10px;
+        font-family: 'Karla', sans-serif;
+        font-size: 20px;
+    }
+    .herosection button{
+        padding: 15px 20px;
+        font-weight: bolder;
+        margin: 10px 0px 0px 10px;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    .dinner{
+        height: 400px;
+        position: relative;
+        background-image: url(./images/about-bg.jpg);
+        background-size: 80%100%;
+        background-repeat: no-repeat;
+    }
+    .dinner h3{
+        margin: 40px 0px 0px 10px;
+    }
+    .dinner h6{
+        margin: 10px 0px 0px 10px;
+    }
+    .dinner .n10{
+        margin: 20px 0px 0px 10px;
+        font-family: 'Karla', sans-serif;
+        width: 50%;
+    }
+    .dinner button{
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+    .dinner img{
+        height: 220px;
+        width: 280px;
+        position: absolute;
+        top: 80px;
+        right: 60px;
+    }
+    .mic{
+        height: 300px;
+        width: 100%;
+        background-image: url(./images/qt-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;    
+    }
+    .mic .mi{
+        position: absolute;
+        top: 170px;
+        left: 320px;
+    }
+    .menu{
+        height: 1060px;
+        position: relative;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+    .menu ul li{
+        margin: 20px 0px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .menu ul li a:hover{
+        background-color: orangered;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+    .menu .jpg{
+        margin: 30px 10px 0px 90px;
+    }
+    .menu .jpg img{
+        width: 40%;
+        margin: 10px 10px 20px 30px;
+        
+    }
+    .gallery{
+        height: 700px;
+    }
+    .gallery h2{
+        margin: 40px 0px 20px 0px;
+    }
+    .gallery nav{
+        color: gray;
+    }
+    .gallery .g1 img{
+        margin: 10px 10px;
+    }
+    .customer {
+        height: 730px;
+    }
+    .f1{
+        height: 300px;
+    }
+}
+@media only screen and (min-width:1200px){
+    /* .container header{
+        height: 0px;
+        z-index: 999;
+        position: fixed;
+        top: 20px;
+        left: 0px;
+        width: 100%;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        border: 1px solid white;
+    }
+    .container header img{
+        height: 50px;
+        width: 160px;
+        margin: 20px 0px 5px 40px;
+    }
+    .container header ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        font-size: 25px;
+    }
+    .container header ul li{
+        margin: 0px 5px 0px 5px;
+    }
+    .container .fa-sort-down{
+        position: absolute;
+        bottom: 20px;
+        right: 240px;
+        
+    }
+    .container ul li a:hover{
+        background-color: #ff0000;
+        border-radius: 20px;
+        padding: 15px;
+    } */
+    .container header{
+        height: 75px;
+        position: relative;
+        border-radius: 0px 0px 40px 40px;
+        background-color: rgba(0, 0, 0, 0.048);
+    }
+    .navbar{
+        position: fixed;
+    }
+    .container .nav{
+        height: 30px;
+    }
+    .container header img{
+        margin: 8px 0px 0px 15px;
+    }
+    .container header .fa-bars{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        font-size: 20px;
+        display: none;
+    }
+    .container header ul li{
+        display: flex;
+        flex-direction: row;
+        /* display: none;  */
+        font-size: 20px;
+    }
+    .container header ul li a{
+        text-decoration: none;
+        list-style: none;
+        /* color: rgb(39, 37, 37); */
+        padding: 8px;
+        display: flex;
+    }
+    .container header ul li a:hover{
+        background-color: orangered;
+        border-radius: 20px;
+    }
+    .container header ul{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        /* display: none; */
+        display: flex;
+        
+    } 
+    .herosection{
+        height: 500px;
+        background: linear-gradient(rgba(10,20,12,0.4));
+        background-color: rgba(10, 10, 20, 0.4);
+        position: relative;
+        margin-top: 0px;
+    }
+    .herosection .fa-telegram-plane{
+        font-size: 40px;
+        padding: 20px;
+        background-color: orangered;
+        color: white;
+        position: absolute;
+        bottom: 350px;
+        right: 20px;
+        z-index: 99;
+        position: fixed;
+    }
+    .herosection .head{
+        margin: 0px 0px 10px 40px;
+        
+    }
+    .herosection .head1, p, button{
+        margin: 0px 0px 0px 40px;
+        
+    }
+    .herosection p{
+        margin: 20px 0px 30px 40px;
+        font-size: 25px;
+    }
+    .herosection button{
+        color: white;
+        background-color: orangered;
+        padding: 20px 35px;
+        border: none;
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .dinner{
+        height: 450px;
+        position: relative;
+    }
+    
+    .dinner h3{
+        margin: 20px 0px 8px 40px;
+        font-size: 35px;
+    }
+    .dinner h3 span{
+        color: orangered;
+    }
+    .dinner h6{
+        margin: 0px 0px 25px 40px;
+        font-size: 20px;
+    }
+    .dinner .n10{
+        margin: 10px 0px 20px 40px;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .dinner img{
+        height: 310px;
+        width: 450px;
+        box-shadow: 13px 13px 0px orangered;
+    }
+    .dinner button{
+        margin: 180px 0px 60px 38px;
+        padding: 18px 25px;
+        font-size: 25px;
+    }
+    .mic{
+        height: 500px;
+        text-align: center;
+        background-image: url(./images/qt-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .mic .if{
+        font-size: 30px;
+    }
+    .mic .mi{
+        position: absolute;
+        top: 290px;
+        left: 500px;
+        font-size: 25px;
+    }
+    .menu{
+        height: 1150px;
+        position: relative;
+    }
+    .menu .sm{
+        margin: 40px 0px 20px 0px;
+        font-size: 35px;
+    }
+    .menu nav{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .menu .jpg{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .menu .jpg img{
+        width: 8%;
+        margin: 20px 20px 20px 20px;
+        height: 240px;
+        width: 300px;
+    }
+    .menu ul{
+        position: absolute;
+        top: 150px;
+        left: 10px;
+        
+    }
+    .menu ul li{
+        margin: 30px 20px 20px 10px;
+        list-style: none;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 30px;
+    }
+    .menu ul li a:hover{
+        background-color: orangered;
+        padding: 8px 50px;
+        text-align: left;
+        border-radius: 7px;
+    }
+    .gallery{
+        height: 760px;
+    }
+    .gallery h2{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px 20px 0px;
+    }
+    .gallery nav{
+        display: flex;
+        justify-content: center;
+        color: gray;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .gallery .g1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .gallery .g1 img{
+       
+        margin: 20px 20px 20px 20px;
+        border: 2px solid orangered;
+        height: 250px;
+        width: 350px;
+    }
+    .customer{
+        height: 870px;
+        text-align: center;
+        position: relative;
+        border: 1px solid white;
+    }
+    .customer h2{
+        margin: 50px 0px 15px 0px;
+        font-size: 40px;
+    }
+    .customer nav{
+        color: gray;
+        margin: 20px 0px 30px 0px;
+        font-size: 25px;
+    }
+    .customer img{
+        height: 200px;
+        width: 200px;
+    }
+    .customer .da{
+        margin: 10px 0px 0px 0px;
+        color: orangered;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .customer .para{
+        width: 70%;
+        margin: 0px 0px 0px 190px;
+    }
+    .customer .sa{
+        color: gray;
+        font-size: 30px;
+        
+    }
+    .customer .add{
+        height: 120px;
+        width: 100%;
+        border: 1px solid orangered;
+        background-color: #ff4400e3;
+        border-radius: 50px;
+        margin: 85px 0px 0px 0px ;
+        display: flex;
+        justify-content: center;
+        color: #000000;
+    }
+    .customer .add nav{
+        color: #000000;
+    }
+    .customer .add .nav1{
+        position: absolute;
+        bottom: 40px;
+        left: 170px;
+        margin: 0px 50px 0px 50px;
+        font-size: 25px;
+        color: white;
+    }
+    .customer .add .nav2{
+        position: absolute;
+        bottom:8px;
+        left: 500px;
+        font-size: 25px;
+        color: white;
+    }
+    .customer .add .nav3{
+        position: absolute;
+        bottom: 8px;
+        left: 830px;
+        font-size: 25px;
+        color: white;
+    }
+    .customer .add .para1{
+        position: absolute;
+        bottom: 15px;
+        left: 180px;
+        font-size: 20px;
+        
+    }
+    .customer .add .para2{
+        position: absolute;
+        bottom: 15px;
+        
+        left: 457px;
+        font-size: 20px;
+        
+    }
+    .customer .add .para3{
+        position: absolute;
+        bottom: 15px;
+        left: 790px;
+        font-size: 20px;
+        
+    }
+    .customer .add .fa-phone-volume{
+        position: absolute;
+        bottom: 20px;
+        left: 140px;
+        font-size: 25px;
+        
+    }
+    .customer .add .fa-envelope{
+        position: absolute;
+        bottom: 20px;
+        left: 430px;
+        font-size: 25px;
+    }
+    .customer .add .an2{
+        position: absolute;
+        bottom: 2px;
+        left: 410px;
+        font-size: 30px;
+        
+    }
+    .customer .add .fa-map-marker-alt{
+        position: absolute;
+        bottom: 20px;
+        left: 760px;
+        font-size: 25px;
+    }
+    .customer .add  .fa-phone-volume, .fa-envelope, .fa-map-marker-alt{
+        padding: 10px 10px;
+        background-color: white;
+        color: orangered;
+    }
+    .f1{
+        height: 250px;
+        background-color: black;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .f1 div{
+        width: 20%;
+        display: inline-block;
+        text-align: left;
+        padding: 20px;
+        margin: 30px 30px 30px 30px;
+        justify-content: left;
+        color: white;
+    }
+    .f1 div h4{
+        margin: 20px 0px 40px 0px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom-color: brown;
+        font-size: 16px;
+    }
+    .f1 .subscribe form input [type="email"]{
+        padding: 25px 0px;
+    }
+    footer{
+        height: 80px;
+        border-top: 1px solid brown;
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
