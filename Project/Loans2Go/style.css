@@ -26,7 +26,7 @@
     background-color: orangered;   
 }
 .go{
-    background-image: url(images/cta-bg.jpg);
+    background-image: url(./cta-bg.jpg);
     background-position: 100%100%;
     background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@
     color: orangered;
 }
 .calci{
-    background-image: url(./images/score-bg.jpg);
+    background-image: url(././score-bg.jpg);
     background-repeat: no-repeat;
     background-position: 100%100%;
     background-size: 100%100%;
